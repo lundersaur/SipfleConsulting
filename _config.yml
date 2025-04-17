@@ -9,8 +9,8 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+# logo: /siteicon.png
+description: Sipfle Consulting offers a variety of services, including independent studies, grant applications, and commissioned research.
 author:
   name:
   email:

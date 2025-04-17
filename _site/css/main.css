@@ -14,7 +14,7 @@ h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-
 
 h1 { font-size: 6.5rem; line-height: 80px; margin: 0 -10px 0 0; }
 
-@media (min-width: 700px) { h1 { line-height: 100px; font-size: 8rem; } }
+@media (min-width: 700px) { h1 { line-height: 100px; font-size: 4rem; } }
 
 h2 { font-size: 3.6rem; }
 
