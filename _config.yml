@@ -25,8 +25,8 @@ social:
 
 timezone: Etc/UTC
 
-paginate: 10
-paginate_path: "/blog/:num/"
+# paginate: 10
+# paginate_path: "/blog/:num/"
 
 collections:
   - "staff_members"
@@ -86,7 +86,7 @@ exclude:
 _select_data:
   call_to_actions:
     - Contact
-    - Blog
+    # - Blog
     - Map
 
   social_icons:
