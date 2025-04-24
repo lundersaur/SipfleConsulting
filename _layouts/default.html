@@ -56,19 +56,20 @@
 	<section class="map-section">
 		<div id="map"></div>
 	</section>
-	{% elsif page.call_to_action == 'Contact' %}
+	<!-- {% elsif page.call_to_action == 'Contact' %} -->
+	{% else %}
 	<section class="quote-section">
 		<p class="container editable">
 			<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you.
 		</p>
 	</section>
-	{% else %}
+	<!-- {% else %}
 	<section class="quote-section">
 		<p class="container editable">
 			<a href="{{ site.baseurl }}/blog/">Read our blog</a> for an introduction and quick tips on various areas of
 			the law.
 		</p>
-	</section>
+	</section> -->
 	{% endif %}
 
 	<footer>
