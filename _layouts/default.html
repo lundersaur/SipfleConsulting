@@ -56,20 +56,12 @@
 	<section class="map-section">
 		<div id="map"></div>
 	</section>
-	<!-- {% elsif page.call_to_action == 'Contact' %} -->
 	{% else %}
 	<section class="quote-section">
 		<p class="container editable">
 			<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you.
 		</p>
 	</section>
-	<!-- {% else %}
-	<section class="quote-section">
-		<p class="container editable">
-			<a href="{{ site.baseurl }}/blog/">Read our blog</a> for an introduction and quick tips on various areas of
-			the law.
-		</p>
-	</section> -->
 	{% endif %}
 
 	<footer>
@@ -104,7 +96,6 @@
 						<h2>{{ site.data.company.title }}</h2>
 					</li>
 					<li>{{ site.data.company.description }}</li>
-					<!-- <li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li> -->
 				</ul>
 			</div>
 		</div>
@@ -112,8 +103,6 @@
 		<div class="legal-line">
 			<p class="container">
 				&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull;
-				<!-- <a href="{{ site.baseurl }}/terms/">Terms</a> -->
-				<!-- &bull; -->
 				Template by <a href="http://cloudcannon.com/">CloudCannon</a>
 			</p>
 		</div>
