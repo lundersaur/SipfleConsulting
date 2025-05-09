@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Justice Template
+title: Sipfle Consulting
 url: "https://orchid-heron.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -9,14 +9,14 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+# logo: /siteicon.png
+description: Sipfle Consulting offers a variety of services, including independent studies, grant applications, and commissioned research.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name: Sipfle Consulting
   links:
     - https://github.com/CloudCannon/justice-jekyll-template
 
@@ -25,8 +25,8 @@ social:
 
 timezone: Etc/UTC
 
-paginate: 10
-paginate_path: "/blog/:num/"
+# paginate: 10
+# paginate_path: "/blog/:num/"
 
 collections:
   - "staff_members"
@@ -86,7 +86,7 @@ exclude:
 _select_data:
   call_to_actions:
     - Contact
-    - Blog
+    # - Blog
     - Map
 
   social_icons:
